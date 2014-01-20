@@ -1,0 +1,26 @@
+0.  Forty-five letter word for purpose of being longest word in English.
+1.  Returns resource usage statistics.
+2.  Sixteen.
+3.  They are very large structs.
+    You would have to copy the data.
+    You could instead access it through reference.
+4.  fgetc reads in a character into c one at a time.
+    For loop continues until fgetc gets an EOF.
+    Then puts it into a character array for word.
+    Index increases so next c put into next stop.
+    Resets index with new word.
+5.  You can select against certain characters.
+    fscanf would take in more than letters and apostrophes.
+6.  Disallows changing them by accident.
+    Or purposefully for that matter.
+    You don't want to change them once they're there.
+7.  Hash table with 26 buckets for each letter of alphabet.
+    Buckets have linked list of nodes for each word.
+    Buckets have every word starting with specific letter.
+    Nodes contain one word and pointer to next node.
+8.  Pretty slow because of the uneven distribution in hash table.
+    Still slow because this wasn't changed.
+9.  Just changes in basic code design.
+    Making sure of no memory leaks.
+10. I absolutely could not get any of the hash functions to work.
+    That's kind of a big impediment to speed, so...

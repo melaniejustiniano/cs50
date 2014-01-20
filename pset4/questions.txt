@@ -1,0 +1,39 @@
+0.  GIF uses 8 bits per pixel which would correspond to 256 colors.
+    BMP, JPEG, and PNG use 24 bits per pixel which would correspond to 2 to the 24.
+    This is around 16 million colors.
+    BMP also supports 1, 4, 8, 24, and 32 bit color.
+    This would correspond to 2 to however many bits BMP is using of colors.
+1.  GIFs
+2.  Lossy compression discards data when it compresses it.
+    Lossless compression takes the compressed file and recreates the original.
+3.  JPEGs
+4.  An indicator is changed to signify if the file is deleted.
+    The FAT cluster is moved to the location of other free clusters.
+5.  You can physically destroy the hard drive.
+    You can use a magnetic field to randomize the binary.
+    You can overwrite where the file is.
+6.  Stdint.h (a library) that declares sets of integer types with specific widths.
+    It also defines their corresponding set of macros.
+    (For integers with exact numbers of bits).
+7.  You don't have to detect the number of bits when you use them.
+    If you want an unsized integer of a byte, you could just uint8_t.
+    It's also cross-platform, so 64 or 32-bit systems compile it uniformly.
+8.  BYTE is 1 byte (8 bits).
+    DWORD is 4 bytes (32 bits).
+    LONG is 4 bytes (32 bits).
+    WORD is 2 bytes (16 bits).
+9.  The first two characters in ASCII encoding are 'BM'.
+10. bfSize refers to the BITMAPFILEHEADER and thus refers to size of the file.
+        bfSize refers to the number of bytes of the bitmap file.
+    biSize refers to the BITMAPINFOHEADER and thus refers to size of DIB.
+        DIB is device-independent bitmap.
+        biSize refers to the number of bytes that the structure needs.
+11. This means the DIB is top-down.
+    The start point is in the upper left-hand corner instead of right-hand.
+12. biBitCount determines color depth.
+13. There might not be enough memory.
+14. fread always uses 1 because it only reads one element of data.
+15. Padding would equal 3.
+16. fseek sets where the cursor is in inside the file.
+17. SEEK_CUR is a location signifying the current placement of the cursor. 
+18. Fozzie Bear
